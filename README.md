@@ -1,9 +1,9 @@
 # Lerning React Notes
 
 > [!TIP]
-> This is not a TL;DR of the book, go buy and read it.
+> This is not a TL;DR of the book, go buy and read it. You can always buy used, borrow from someone you know or from people on the internet, if you know what I mean.
 
-This are some notes and other things while read the book Learning React (2020). The book also have it's own GitHub repository https://github.com/moonhighway/learning-react
+This are some notes and other things while read the book Learning React (2020). The book also have it's own GitHub repository: https://github.com/moonhighway/learning-react
 
 This includes a Docker Compose file that gives you a Node 22 development environment that shares the current dicrectory with the container, to build and get a shell prompt:
 
@@ -31,3 +31,4 @@ readable, reusable, and testable. Sort of like a gentle, helpful brainwashing." 
 - Calling a function declared as a function expression will result in a type error while a regular function will be called without any problem (page 13)
 - Anything can be a default value including whole objects (page 14)
 - Remember to put a parenthesis around an object you returning (page 16)
+- Keep scope aways in mind. A regular function will create a new scope, use an arrow function to solve it. But if you use the arrow function for the function on an object the ***this*** variable will be the global one, likely **Window**.  I struggled with something like the example before (page 16)
