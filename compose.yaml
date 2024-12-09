@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    #user: node
+    build: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - ./:/code:rw
