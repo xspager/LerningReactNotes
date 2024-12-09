@@ -10,7 +10,7 @@ This includes a Docker Compose file that gives you a Node 22 development environ
 ```bash
 $ docker-compose up --build -d
 $ docker-compose exec web bash
-# Or straint into Nodejs
+# Or straight into Nodejs
 $ docker-compose exec web node
 ```
 
@@ -28,8 +28,8 @@ readable, reusable, and testable. Sort of like a gentle, helpful brainwashing." 
 ## Chapter 2
 
 - You can do math (and more) inside a template string like console.log(\`${3*5}\`) will print 15 (page 11)
-- Calling a function declared as a function expression will result in a type error while a regular function will be called without any problem (page 13)
-- Anything can be a default value including whole objects (page 14)
+- Calling a function declared as a function expression before their declaration will result in a type error while a regular function will be called without any problem (page 13)
+- Anything can be a default value for a function including whole objects (page 14)
 - Remember to put a parenthesis around an object you returning (page 16)
 - Keep scope aways in mind. A regular function will create a new scope, use an arrow function to solve it. But if you use the arrow function for the function on an object the ***this*** variable will be the global one, likely **Window**.  I struggled with something like the example before. (page 16)
 - "Compilers" like Babel help you use the latest and greated of Javascript syntax while staying compatible by generating more widely supported code that is equivalent to what you wrote. (page 17)
