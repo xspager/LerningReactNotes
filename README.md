@@ -39,3 +39,11 @@ readable, reusable, and testable. Sort of like a gentle, helpful brainwashing." 
 - The spread operator has many uses. To create a combined array. To create a temporary copy of an array to avoid mutating it. To get the reminder of an array you are destructing, like *const [a, b, ...others] = things;* And to use to collect function arguments for a function that accepts an array. And for contructing objects. (page 22)
 - ECMAScript commitee made fetch happen 😡
 - How to build a promisse -> (page 26)
+- The class syntax is just a syntatic sugar over the regular prototype based object model(?) (page 27)
+
+## Chapter 3
+
+- "JavaScript supports function programing becuase JavaScript functions are first class citizens."
+- You can even add function to an array then call them like *array\[2\]()*
+- Higher-order function take or return functions (page 33)
+- Wish I have read this book 4 years ago, I'm not even joking.
